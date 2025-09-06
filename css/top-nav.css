@@ -1,0 +1,145 @@
+
+/* Header Nav */
+.top-nav{
+  height: 60px;  
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 18px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background-color: white;
+}
+.left-section{
+  display: flex;
+  align-items: center;  
+}
+.hamburger-menu{
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.yt-logo-container{
+  position: relative;
+}
+.yt-logo{
+  margin-right: 10px;
+}
+.yt-location{
+  position: absolute;
+  top: -5px;
+  right: -10px;
+
+  color: gray;
+  font-weight: 600;
+  font-size: 10px;
+
+}
+.middle-section{
+  display: flex;
+  margin-left: 50px;
+  margin-right: 10px;
+  width: 650px;
+  align-items: center;
+}
+
+.search-input, 
+.search-btn{
+  border: 1px solid rgba(141, 137, 137, 0.708);
+}
+.search-input{
+  flex: 1;
+  border-start-start-radius: 60px;
+  border-end-start-radius: 60px;
+  /* padding-left: 20px; */
+  height: 39px;
+  padding: 0;
+  width: 0;
+  margin-left: 30px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.06);
+}
+.search-input::placeholder{
+  font-size: larger;
+  padding-left: 28px;
+  font-weight: 500;
+}
+.search-btn{
+  width: 60px;
+  margin-right: 15px;
+  margin-left: -1px;
+  border-start-end-radius: 60px;
+  border-end-end-radius: 60px;
+  height: 40px;
+  padding-top: 2px;
+}
+.mic-btn{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(227, 226, 226);
+  border: 0;
+}
+.right-section{
+  display: flex;
+  margin-right: 29px;
+  width: 200px;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.create-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;  
+  background-color:rgb(227, 226, 226);
+}
+.create-btn p{
+  font-family: Roboto, Arial;
+  font-weight: 600;
+  margin-left: 5px;
+  text-transform: capitalize;
+}
+.notification-container{
+  position: relative;
+}
+.notification-icon{
+  width: 26px;
+}
+.notification-status{
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid white;
+  border-radius: 20px;
+  /* padding: 3px; */ 
+
+  position: absolute;
+  top: -2px;
+  right: -8px;
+  width: 20px;
+  height: 15px;
+
+}
+.main-user{
+  width: 33px;
+  border-radius: 100%;
+}

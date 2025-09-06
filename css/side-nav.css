@@ -1,0 +1,42 @@
+.side-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: fixed;
+  left: 0;
+  top: 60px;
+  bottom: 0;
+  z-index: 1;
+
+  background-color: white;
+}
+.side-nav div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 65px;
+  height: 75px;
+  margin: 0 5px;
+ 
+
+}
+.side-nav:hover div{
+  border-radius: 5px;
+}
+.side-nav img{
+  width: 24px;
+  margin-bottom: 5px;
+}
+.side-nav p{
+  font-size: 10px;
+}
+
+
+
+.hide-bg{
+  display: none;
+  visibility: hidden;
+}

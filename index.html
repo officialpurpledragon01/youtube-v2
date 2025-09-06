@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="author" content="purple-dragon-official">
+    <meta name="description" content="Just playing around with youtube layout">
+    <title>
+      Youtube v2.1.1
+    </title>
+    <link rel="shortcut icon" href="favicon.ico" type="images/user-icon/main-user.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/top-nav.css">
+    <link rel="stylesheet" href="css/side-nav.css">
+    <link rel="stylesheet" href="css/bottom-nav.css">
+    <link rel="stylesheet" href="css/media-query.css">
+  </head>
+  <body>
+    <nav class="top-nav">  <!--same as header -->
+      <div class="left-section">
+        <img src="images/btn-icon/harmburger-menu.svg" alt="hamburger-menu" class="hamburger-menu">
+        <div class="yt-logo-container">
+          <img src="images/btn-icon/yt-logo.svg" alt="yt-logo" class="yt-logo">
+          <div class="yt-location">NG</div>
+        </div>
+      </div>
+        
+      <div class="middle-section">
+        <!-- <div class="search-box"> -->
+          <input type="text" placeholder="Search" class="search-input">
+          <button class="search-btn">
+            <img src="images/btn-icon/search-btn.svg" alt="search-btn">
+          </button>
+          <button class="mic-btn">
+            <img src="images/btn-icon/mic.svg" alt="mic">
+          </button>
+          <!-- </div> -->
+      </div>
+
+      <div class="right-section">
+        <button class="create-btn">
+          <img src="images/btn-icon/create.svg" alt="create">
+          <p>create</p>
+        </button>
+        <div class="notification-container">
+          <img src="images/btn-icon/notification.svg" alt="notification" class="notification-icon">
+          <div class="notification-status">9+</div>
+        </div>
+        <img src="images/user-icon/main-user2.jpg" alt="main-user" class="main-user">
+      </div>
+    </nav>
+
+    <nav class="side-nav">
+      <div class="home">
+        <img src="images/btn-icon/home.svg" alt="home-btn">
+        <p>Home</p>
+      </div>
+      <div class="short">
+        <img src="images/btn-icon/short.svg" alt="short-btn">
+        <p>Shorts</p>
+      </div>
+      <div class="subscription">
+        <img src="images/btn-icon/subscription.svg" alt="subscription">
+        <p>Subscription</p>
+      </div>
+      <div>
+        <img src="images/btn-icon/user.svg" alt="user">
+        <p>You</p>
+      </div>
+      <div>
+        <img src="images/btn-icon/download.svg" alt="download">
+        <p>Downloads</p>
+      </div>
+
+      <!-- <div class="hide-bg"> 
+        <div> 
+          <div>
+            <img src="images/btn-icon/home.svg" alt="home">
+            <p>Home</p>
+          </div>
+          <div>
+            <img src="images/btn-icon/short.svg" alt="short">
+            <p>Shorts</p>
+          </div>
+          <div>
+            <img src="images/btn-icon/subscription.svg" alt="subscription">
+            <p>Subscription</p>
+          </div>
+        </div>
+
+        <div> 
+          <div>
+            <img src="images/btn-icon/history.svg" alt="history">
+            <p>History</p>
+          </div>
+          <div>
+            <img src="images/btn-icon/playlist.svg" alt="playlist">
+            <p>Playlist</p>
+          </div>
+          <div>
+            <img src="images/btn-icon/your-video.svg" alt="your video">
+            <p>Your Video</p>
+          </div>
+          <div>
+            <img src="images/btn-icon/watch-later.svg" alt="watch later">
+            <p>Watch Later</p>
+          </div>
+          <div>
+            <img src="images/btn-icon/liked.svg" alt="like">
+            <p>Liked</p>
+          </div>
+          <div>
+            <img src="images/btn-icon/download.svg" alt="download">
+            <p>Downloads</p>
+          </div>
+        </div>
+
+        <div> 
+          <div>
+            <img src="images/btn-icon/music.svg" alt="music">
+            <p>Music</p>
+          </div>
+          <div>
+            <img src="images/btn-icon/gaming.svg" alt="gaming">
+            <p>Gaming</p>
+          </div>
+          <div>
+            <img src="images/btn-icon/news.svg" alt="news">
+            <p>News</p>
+          </div>
+          <div>
+            <img src="images/btn-icon/sports.svg" alt="sports">
+            <p>Sport</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="images/btn-icon/yt-premium.svg" alt="yt-premium">
+          <img src="images/btn-icon/yt-studio.svg" alt="yt-studio">
+          <img src="images/btn-icon/yt-music.svg" alt="yt-music">
+          <img src="images/btn-icon/yt-kids.svg" alt="yt-kids">
+        </div>
+
+        <div> 
+        <img src="images/btn-icon/settings.svg" alt="settings">
+        <img src="images/btn-icon/report.svg" alt="report">
+        <img src="images/btn-icon/help.svg" alt="help">
+        <img src="images/btn-icon/feedback.svg" alt="feedback">
+        </div>
+      </div> -->
+    </nav>
+    
+    <main> 
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img src="images/thumbnail/thumbnail-0.avif" alt="thumbnail" class="video-thumbnail">
+          <div class="video-time">45:58</div>
+        </div>
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="images/user-icon/main-user.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">How to host a website online using ASP.NET and Github</p>
+            <p class="video-author"> supersimpledev </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div>  
+          <img src="images/btn-icon/column-menu.svg" class="video-menu">
+        </div>
+      </div>
+    
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img src="images/thumbnail/thumbnail-1.jpeg" alt="thumbnail" class="video-thumbnail">
+          <div class="video-time">45:58</div>
+        </div>
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="/images/user-icon/profile-user1.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">Thanksgiving for being there to all member</p>
+            <p class="video-author"> kayslikyband </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div>  
+          <img src="images/btn-icon/column-menu.svg" class="video-menu">
+        </div>
+      </div>
+
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img src="images/thumbnail/thumbnail-2.jpeg" alt="thumbnail" class="video-thumbnail">
+          <div class="video-time">45:58</div>
+        </div>
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="/images/user-icon/profile-user2.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">Therapy Session Version 2.0 with IsbaeU</p>
+            <p class="video-author"> crazclown </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div>
+          <img src="images/btn-icon/column-menu.svg" class="video-menu">  
+        </div>
+      </div>
+
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img src="images/thumbnail/thumbnail-3.jpeg" alt="thumbnail" class="video-thumbnail">
+          <div class="video-time">45:58</div>
+        </div>
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="/images/user-icon/profile-user3.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">How to host a website online using ASP.NET and Github</p>
+            <p class="video-author"> supersimpledev </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div> 
+          <img src="images/btn-icon/column-menu.svg" class="video-menu"> 
+        </div>
+      </div>
+    
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img src="images/thumbnail/thumbnail-4.jpeg" alt="thumbnail" class="video-thumbnail">
+          <div class="video-time">45:58</div>
+        </div>
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="/images/user-icon/profile-user4.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">Thanksgiving for being there to all member</p>
+            <p class="video-author"> kayslikyband </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div> 
+          <img src="images/btn-icon/column-menu.svg" class="video-menu"> 
+        </div>
+      </div>
+
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img src="images/thumbnail/thumbnail-5.jpeg" alt="thumbnail" class="video-thumbnail">
+          <div class="video-time">45:58</div>
+        </div>
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="/images/user-icon/profile-user5.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">How to host a website online using ASP.NET and Github</p>
+            <p class="video-author"> supersimpledev </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div> 
+         <img src="images/btn-icon/column-menu.svg" class="video-menu">
+        </div>
+      </div>
+    
+      <div class="video-card">
+        <img src="images/thumbnail/thumbnail-6.jpeg" alt="thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="/images/user-icon/profile-user6.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">Thanksgiving for being there to all member</p>
+            <p class="video-author"> kayslikyband </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div>  
+        </div>
+      </div>
+
+      <div class="video-card">
+        <img src="images/thumbnail/thumbnail-7.jpeg" alt="thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="/images/user-icon/profile-user7.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">How to host a website online using ASP.NET and Github</p>
+            <p class="video-author"> supersimpledev </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div>  
+        </div>
+      </div>
+    
+      <div class="video-card">
+        <img src="images/thumbnail/thumbnail-8.jpeg" alt="thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="/images/user-icon/profile-user8.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">Thanksgiving for being there to all member</p>
+            <p class="video-author"> kayslikyband </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div>  
+        </div>
+      </div>
+
+      <div class="video-card">
+        <img src="images/thumbnail/thumbnail-9.jpeg" alt="thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="/images/user-icon/profile-user9.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">How to host a website online using ASP.NET and Github</p>
+            <p class="video-author"> supersimpledev </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div>  
+        </div>
+      </div>
+    
+      <div class="video-card">
+        <img src="images/thumbnail/thumbnail-10.jpeg" alt="thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="/images/user-icon/profile-user10.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">Thanksgiving for being there to all member</p>
+            <p class="video-author"> kayslikyband </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div>  
+        </div>
+      </div>
+
+      <div class="video-card">
+        <img src="images/thumbnail/thumbnail-11.jpeg" alt="thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="/images/user-icon/profile-user11.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">How to host a website online using ASP.NET and Github</p>
+            <p class="video-author"> supersimpledev </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div>  
+        </div>
+      </div>
+
+      <div class="video-card">
+        <img src="images/thumbnail/thumbnail-12.jpeg" alt="thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <div class="video-profile">
+            <img src="/images/user-icon/profile-user12.jpeg" alt="user-icon" class="user-icon">
+          </div>
+          <div class="video-description">
+            <p class="video-title">How to host a website online using ASP.NET and Github</p>
+            <p class="video-author"> supersimpledev </p>
+            <p class="video-stats"> 10.5M views &#183 1 week ago</p>  
+          </div>  
+        </div>
+      </div>
+
+    </main>
+    
+  </body>
+</html>

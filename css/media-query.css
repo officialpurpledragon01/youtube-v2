@@ -1,0 +1,20 @@
+@media screen and (max-width: 1137px) {
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width:780px){
+  body{
+    padding-left: 0;
+  }
+  .sidenav{
+    display: none;
+  }
+}
+/* @media (max-width: 590px) and (min-width: ){
+  main{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
