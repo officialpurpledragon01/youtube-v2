@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 18px;
+  /* margin-left: 18px; */
 
   position: fixed;
   top: 0;
@@ -38,6 +38,7 @@
   color: gray;
   font-weight: 600;
   font-size: 10px;
+  font-family: arial;
 
 }
 .middle-section{
@@ -76,6 +77,7 @@
   border-end-end-radius: 60px;
   height: 40px;
   padding-top: 2px;
+  background-color:rgb(227, 226, 226);
 }
 .mic-btn{
   display: flex;
@@ -120,9 +122,9 @@
 .notification-status{
   background-color: red;
   color: white;
-  font-size: 14px;
+  font-size: 10px;
   font-family: Roboto;
-  font-weight: 600;
+  /* font-weight: 600; */
 
   display: flex;
   align-items: center;
@@ -134,12 +136,11 @@
 
   position: absolute;
   top: -2px;
-  right: -8px;
-  width: 20px;
-  height: 15px;
-
+  right: -3px;
+  width: 16px;
+  height: 14px;
 }
 .main-user{
-  width: 33px;
+  width: 32px;
   border-radius: 100%;
 }

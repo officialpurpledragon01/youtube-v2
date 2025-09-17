@@ -14,6 +14,9 @@
 
   background-color: white;
   color: black;
+
+  overflow: scroll;  /* to make it scrollable */
+  scrollbar-width: none; /* removes the scroll bar*/
 }
 .section{
   margin-bottom: 5px;
@@ -33,10 +36,11 @@
   /* width: 65px;
   height: 75px; */
   cursor: pointer;
+  transition: all 700ms;
 }
 .section div:hover {
-  border-radius: 5px;
-  background-color: rgba(219, 220, 220, 0.893);
+  border-radius: 10px;
+  background-color:rgb(227, 226, 226);
 }
 .section h3{
   font-family: Arial, Roboto;
@@ -49,6 +53,6 @@
   width: 22px;
 }
 .side-nav-ext p{
-  font-size: 12px;
+  font-size: 14px;
   
 }

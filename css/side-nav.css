@@ -20,11 +20,11 @@
   width: 65px;
   height: 75px;
   margin: 0 5px;
- 
-
+  transition: all 700ms;
 }
-.side-nav:hover div{
+.side-nav div:hover {
   border-radius: 5px;
+  background-color:rgb(227, 226, 226);
 }
 .side-nav img{
   width: 24px;
@@ -32,11 +32,4 @@
 }
 .side-nav p{
   font-size: 10px;
-}
-
-
-
-.hide-bg{
-  display: none;
-  visibility: hidden;
 }
